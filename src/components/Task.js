@@ -17,7 +17,7 @@ export default function Task({ title }) {
       <div>{task.title}</div>
       <div className="bottom-wrapper">
         <div>
-          <img src={tash} onClick={() => deleteTask(task.title)} />
+          <img src={tash} alt="tash icon" onClick={() => deleteTask(task.title)} />
         </div>
         <div className={classNames("status", task.state)}>{task.state}</div>
       </div>
